@@ -1,0 +1,28 @@
+{
+  "files": {
+    "teenhealth/scripts/main.js": [
+      {
+        "id": "14c37fd6-9b90-4a2a-921a-8bdf6088a7e5",
+        "line": 1,
+        "version": 50,
+        "index": 0
+      }
+    ],
+    "teenhealth/static.py": [
+      {
+        "id": "79651304-2cc4-42b2-ba75-3acec7b31a2b",
+        "line": 1,
+        "version": 0,
+        "index": 0
+      }
+    ],
+    "teenhealth/static/style.css": [
+      {
+        "id": "500245a8-d13d-491f-8a5a-1efaaef4ba4c",
+        "line": 1,
+        "version": 2026,
+        "index": 0
+      }
+    ]
+  }
+}

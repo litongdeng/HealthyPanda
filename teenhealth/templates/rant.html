@@ -1,0 +1,23 @@
+<!--RANT WEBPAGE-->
+
+{% extends "layout.html" %}
+{%block content%}
+
+  <!--Written Text-->
+  <h1>Rant</h1>
+  <h2>Write and burn a Rant.</h2>
+  
+   <!--Fillable Box and Button-->
+  <textarea class="note" id="input"></textarea>
+  <button class="button" type="button" id="rant-button" onclick="RantFunction()">Burn</button>
+  
+   <!--Small JavaScript Functions for Button to Follow-->
+  <script type="text/javascript">
+       
+    function RantFunction(){
+    document.getElementById('input').value = '';
+    alert("Uh Oh! The HealthyPanda stole your Rant and ate it. HealthyPanda must be hungry for more Reflections.")}
+  </script>
+
+
+{%endblock content%}

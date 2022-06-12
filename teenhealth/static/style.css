@@ -1,0 +1,134 @@
+/* CSS Styling Below Used In All Pages */
+.content {
+  padding-left: 5em;
+  padding-top: 20px;
+  padding-right: 5em;
+  max-width: 55em;
+}
+
+h1 { 
+  font-family: "Abril Fatface";
+  font-size: 35px;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #404040
+}
+
+h2 {
+  font-family: "Abril Fatface";
+  font-size: 25px; 
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 550;
+  line-height: 15.4px; 
+  padding-bottom: 10px;
+  padding-top: 15px;
+  color: #404040;
+}
+
+h5 { 
+  font-family: "Abril Fatface";
+  font-size: 17.75px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px; 
+  color: #8C6BAF;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+
+p {
+  font-family: "Lato";
+  font-size: 16px;
+  color: #404040
+  
+}
+
+/* navbar styling */
+.navbar {
+  background-color: #8EAF6B;
+}
+
+#navbarNav {
+  justify-content: right;
+}
+
+.navbar-brand {
+  color:#8C6BAF;
+  justify-content: left;
+}
+
+/* rant page styling */
+
+#app {
+    padding: 24px;
+    gap: 24px;
+}
+
+.note {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  box-sizing: border-box;
+  padding: 16px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.25);
+  resize: none;
+  font-family:'Lato', cursive;
+}
+
+#rant-button {
+  margin-top: 12.5px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: white; 
+  color: #8C6BAF; 
+  border: 2px solid #8C6BAF;
+  transition-duration: 0.5s;
+ }
+
+#rant-button:hover {
+  background-color: red; 
+  color: black; 
+  border: 2px solid red;
+}
+
+/* Reflection page styling */
+
+.card-text {
+  padding-top: 10px;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#refl-button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  background-color: white;
+  color: #404040;
+  border: 2px solid #8C6BAF; 
+}
+  
+#refl-button:hover {
+  background-color: #8C6BAF;
+  color: white;
+}

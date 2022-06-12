@@ -1,0 +1,59 @@
+
+{% extends "layout.html" %}
+
+{%block content%}
+  <!--written content -->
+  <h1>Reflection</h1>
+  <h2>Your prompt is...</h2>
+
+  <!-- prompt/instr/category/info all selected in routes.py -->
+  <p>{{prompt}} {{instr}} Write here or in a journal of your choice. Your HealthyPanda digital journal is made of the finest quality organic bamboo paper. </p>
+
+  <!-- when clicked, makes card about category visible --->
+  <p><a href="#card" id="learn-more" style="color: #8C6BAF;" onclick="LearnMore()">Learn more about {{ category.lower() }}</a></p>
+  
+  <!-- text area to type reflection -->
+  <textarea rows="10" cols="50" id="myInput" placeholder="Type Reflection Here..."> </textarea>
+  <button class="button" type="button" onclick="ReflectionFunction()" id="refl-button">Submit To Be Eaten By HealthyPanda</button>
+
+  <!-- card is hidden until learn more is clicked-->
+  <!-- card that gives more information based on the category the question is in, used bootstrap to make -->
+  <div class="card" style="max-width: 30em; visibility: hidden;" id="card">
+    <div class="card-body">
+      <h2 class="card-title">{{category}}</h3>
+      <h5 class="card-subtitle">Definition</h5>
+      <p class="card-text">{{ info[0] }}</p>
+
+      <!-- iterates through all examples given -->
+      <h5 class="card-subtitle">Examples</h5>
+      <ul class="list-group list-group-flush">
+        {% for ex in info[1] %}
+          <li class="list-group-item">{{ ex }}</li>
+        {% endfor %}
+      </ul>
+
+      <h5 class="card-subtitle">Additional Resources</h5>
+      <p class="card-text">{{ info[2] }} </p>
+      
+    </div>
+    
+  </div>
+
+  <!-- JS code for eating Reflection/making learn more card visible -->
+  <script type="text/javascript">
+    function ReflectionFunction(){ 
+      document.getElementById('myInput').value = '';
+      alert("The HealthyPanda has eaten your Reflection. The HealthyPanda wants to say thank you for the treat.") 
+    }
+    
+    function LearnMore() {
+      var card = document.getElementById('card');
+      if (card.style.visibility == 'visible') {
+        card.style.visibility = 'hidden';
+      }
+      else
+        card.style.visibility = 'visible';
+    }
+  </script>
+
+{%endblock content%}
