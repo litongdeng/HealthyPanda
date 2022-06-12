@@ -1,4 +1,4 @@
-from healthypanda.__init__ import app
+from teenhealth.__init__ import app
 # app will import from __init__.py
 
 if __name__ == '__main__':
