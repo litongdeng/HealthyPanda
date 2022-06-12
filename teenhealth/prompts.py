@@ -25,7 +25,7 @@ card_categories = {
                            
 'Understanding Stress' : ["Your body's response to anything that requires attention or action.", ['Acute vs. chronic', 'Episodic acute stress', 'Eustress (positive stress)'], 'https://www.verywellmind.com/stress-and-health-3145086'],
                            
-'Emotional Control': ['The ability to manage disturbing emotions and remain effective, even in stressful situations.', ['Emotional self-awareness', 'Expressing anger in a healthy way', 'NOT supressing emotions'], 'https://www.mindful.org/emotional-self-control-matters/'],
+'Emotional Control': ['The ability to manage disturbing emotions and remain effective, even in stressful situations.', ['Emotional self-awareness', 'Expressing anger in a healthy way', 'NOT suppressing emotions'], 'https://www.mindful.org/emotional-self-control-matters/'],
                            
 'Response Types': ['Four catagories for how someone responds to a percived danger.', ['Fight', 'Flight', 'Fawn', 'Freeze'], 'https://www.verywellmind.com/the-four-fear-responses-fight-flight-freeze-and-fawn-5205083'],
                            
